@@ -1,0 +1,322 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.text-white {
+  color: #fff; }
+
+.text-red {
+  color: #891818; }
+
+.bg-dark {
+  background: #000; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+img {
+  vertical-align: middle; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.mx-auto {
+  margin: 0 auto; }
+
+.d-inline-block {
+  display: inline-block; }
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.justify-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.justify-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.align-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.italic {
+  font-style: italic; }
+
+.medium {
+  font-weight: 500; }
+
+.bold {
+  font-weight: 700; }
+
+.ex-bold {
+  font-weight: 900; }
+
+.fs-1 {
+  font-size: 20px; }
+
+.fs-2 {
+  font-size: 24px; }
+
+.fs-3 {
+  font-size: 64px; }
+
+.fs-4 {
+  font-size: 80px; }
+
+.text-center {
+  text-align: center; }
+
+.lh-1 {
+  line-height: 1.3125; }
+
+.lh-2 {
+  line-height: 1.325; }
+
+.lh-3 {
+  line-height: 1.333; }
+
+.lh-4 {
+  line-height: 1.375; }
+
+.lh-5 {
+  line-height: 1.4; }
+
+.lh-6 {
+  line-height: 1.5; }
+
+.mb-4 {
+  margin-bottom: 4px; }
+
+.mb-8 {
+  margin-bottom: 8px; }
+
+.mb-12 {
+  margin-bottom: 12px; }
+
+.mb-16 {
+  margin-bottom: 16px; }
+
+.mb-20 {
+  margin-bottom: 20px; }
+
+.mb-6 {
+  margin-bottom: 24px; }
+
+.mb-28 {
+  margin-bottom: 28px; }
+
+.mb-32 {
+  margin-bottom: 32px; }
+
+.mb-36 {
+  margin-bottom: 36px; }
+
+.mb-40 {
+  margin-bottom: 40px; }
+
+.mb-11 {
+  margin-bottom: 44px; }
+
+.mb-48 {
+  margin-bottom: 48px; }
+
+.mb-13 {
+  margin-bottom: 52px; }
+
+.mb-56 {
+  margin-bottom: 56px; }
+
+.mb-15 {
+  margin-bottom: 60px; }
+
+.mb-64 {
+  margin-bottom: 64px; }
+
+.mb-17 {
+  margin-bottom: 68px; }
+
+.mb-144 {
+  margin-bottom: 144px; }
+
+.mt-56 {
+  margin-top: 56px; }
+
+.mx-8 {
+  margin: 0 8px; }
+
+.mr-16 {
+  margin-right: 16px; }
+
+.header {
+  background: url(../images/banner.png) no-repeat center;
+  background-size: cover;
+  height: 100vh; }
+
+.about {
+  margin: 56px 0; }
+  .about-content {
+    max-width: 384px; }
+  .about-experience {
+    border-top: 1px solid #000;
+    padding-top: 23px;
+    max-width: 384px; }
+
+.brand {
+  padding: 55px 0 160px; }
+
+.contact {
+  padding: 64px 0; }
+
+/*# sourceMappingURL=all.css.map */
