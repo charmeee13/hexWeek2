@@ -1,0 +1,32 @@
+// header
+.header {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+//about
+.about {
+    margin: 56px 0;
+
+    &-content {
+        max-width: 384px;
+    }
+
+    &-experience {
+        border-top: 1px solid #000;
+        padding-top: 23px;
+        max-width: 384px;
+    }
+}
+
+//brand
+.brand {
+    padding: 55px 0 160px;
+}
+
+//work
+//contact
+.contact {
+    padding: 64px 0;
+}
